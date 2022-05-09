@@ -1,0 +1,45 @@
+.CategoryEntry {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.CategoryEntry .box {
+  background-color: #e6e6e6;
+  margin: 0 auto;
+  padding: 50px;
+  height: 800px;
+  max-width: 900px;
+}
+
+.CategoryEntry .box .child {
+  vertical-align: middle;
+  width: 70%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.CategoryEntry .box .child:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.CategoryEntry .box .child .input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=CategoryEntry.css.map */

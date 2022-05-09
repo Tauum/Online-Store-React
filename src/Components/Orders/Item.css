@@ -1,0 +1,72 @@
+.orderitem {
+  background-color: white;
+  max-width: 800px;
+  padding: 0;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.orderitem .image {
+  width: 190px;
+  height: 190px;
+  margin: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.orderitem .information {
+  padding-left: 20px;
+  width: 600px;
+}
+
+.orderitem .information .name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.orderitem .information .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.orderitem .information .middle .price {
+  font-size: 20px;
+}
+
+.orderitem .information .middle .remove {
+  margin-right: 15px;
+  right: 0;
+}
+
+.orderitem .information .score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.orderitem:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+/*# sourceMappingURL=Item.css.map */

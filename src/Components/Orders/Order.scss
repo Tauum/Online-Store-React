@@ -1,0 +1,33 @@
+.order{
+    background-color: white;
+    padding : 20px;
+
+    background-color: rgb(230, 230, 230);
+    .transactionInfo{
+        display:flex;
+        
+        .child{
+            width: 30%;
+            margin:0 auto;
+            padding: 20px ;
+            // padding-left: 40px;
+            // padding-right: 40px;
+            background-color: white;
+            transition: transform .6s; /* Animation */
+            transform: scale(1);
+            &:hover{
+                transition: transform .6s; /* Animation */
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    .orderItem{
+        margin: 20px
+    }
+
+    .download{
+        text-align: center;
+    }
+}
+

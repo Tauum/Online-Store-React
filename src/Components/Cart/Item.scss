@@ -1,0 +1,51 @@
+.cartitem{
+    background-color: white;
+    padding: 0;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+    display: flex;
+
+    .image{
+        width: 200px;
+        height: 200px;
+        margin: 0;
+        object-fit: contain;
+        transition: transform .6s; /* Animation */
+        transform: scale(1.0);
+        &:hover{
+            transition: transform .6s; /* Animation */
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+    .information{
+        padding-left: 20px;
+        width: 600px;
+        .name{
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .middle{
+            display: flex;
+            justify-content: space-between;
+            .price{
+                font-size: 20px;
+            }
+            .remove{
+                margin-right: 15px;
+                right: 0;
+            }
+        }
+        .score{display: flex;}
+    }
+    transition: transform .6s; /* Animation */
+    transform: scale(1);
+    &:hover{
+        transition: transform .6s; /* Animation */
+        transform: scale(1.01);
+    }
+}

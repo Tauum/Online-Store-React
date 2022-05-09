@@ -1,0 +1,47 @@
+.cart{
+    display:flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    justify-content: center;
+
+    .left{
+        width: 60%;
+        margin-right: 15px;
+        .header{
+            
+            display:flex;
+            .rewardsimage{
+                overflow: hidden;
+                width: 30%;
+                transition: transform .6s; /* Animation */
+                transform: scale(1);
+                &:hover{
+                    transition: transform .6s; /* Animation */
+                    transform: scale(1.1);
+                }
+            }
+            .spacer{
+                width: 90%;
+            }
+
+        }
+
+        .title{
+            margin-right: 10px;
+            padding: 10px;
+            border-bottom: 1px solid gray;
+        }
+
+        .items{
+
+            background-color: rgb(230, 230, 230);
+            padding: 25px;
+            margin-top:20px;
+            min-width: 520px;
+        }
+    }
+    .right{
+
+    }
+}

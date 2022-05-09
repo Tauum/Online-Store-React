@@ -1,0 +1,123 @@
+.ItemEntry {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.ItemEntry .box {
+  background-color: #e6e6e6;
+  margin: 0 auto;
+  padding: 40px;
+  height: 800px;
+  max-width: 900px;
+}
+
+.ItemEntry .box .child {
+  vertical-align: middle;
+  width: 70%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.ItemEntry .box .child:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.ItemEntry .box .child .input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ItemEntry .box .child .dualInput {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.ItemEntry .box .child .dualInput .left {
+  width: 100%;
+}
+
+.ItemEntry .box .child .dualInput .right {
+  width: 100%;
+}
+
+.ItemEntry .box .child .dualInput .dualInputChild {
+  width: 60%;
+  padding: 10px;
+}
+
+.ItemEntry .box .child .tripleInput {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.ItemEntry .box .child .tripleInput .left {
+  width: 100%;
+}
+
+.ItemEntry .box .child .tripleInput .right {
+  width: 100%;
+}
+
+.ItemEntry .box .child .tripleInput .tripleInputChild {
+  width: 50%;
+  padding: 10px;
+}
+
+.category-modal {
+  text-align: center;
+}
+
+.category-modal .card-body .mainContent .categories {
+  margin: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 25px;
+  background-color: #e6e6e6;
+}
+
+.category-modal .card-body .mainContent .categories .category {
+  margin: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.category-modal .card-body .mainContent .categories .category:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+/*# sourceMappingURL=ItemEntry.css.map */

@@ -1,0 +1,22 @@
+.total{
+    background-color: rgb(230, 230, 230);
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .btnCheckout{
+        margin-bottom: 25px;
+    }
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+
+    input{
+        margin-right: 10px;
+    }
+}

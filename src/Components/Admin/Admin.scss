@@ -1,0 +1,19 @@
+
+.admin{
+    border: 1px pink;
+    background-color: gray;
+    display: flex;
+    height: 100%;
+    .left{
+        border: red 1px;
+
+        .element{
+            background-color: black;
+            border: green 1px;
+        }
+    }
+    .right{
+        margin: 25px;
+        background-color: violet;
+    }
+}

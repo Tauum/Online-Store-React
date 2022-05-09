@@ -1,0 +1,65 @@
+.stuff{
+    // background: rgb(63,218,251);
+    // background: radial-gradient(circle, rgba(63,218,251,1) 0%, rgba(70,252,161,1) 100%);
+    background: rgb(255,194,204);
+    background: radial-gradient(circle, rgba(255,194,204,1) 0%, rgba(194,214,255,1) 100%);
+    overflow: hidden;
+    height: 100vh;
+
+    .all{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 7.5%;
+        border-radius: 15px;
+        padding: 30px;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 100%);
+        // background-color: white;
+        width: 40%;
+        min-width: 290px;
+
+        .treehouse{
+            margin: 15px;
+            background: rgb(255,194,204);
+            background: linear-gradient(0deg, rgba(255,194,204,1) 0%, rgba(194,214,255,1) 100%);
+            padding: 10px;
+            border-radius: 15px;
+            width: 200px;
+            transition: transform .6s; /* Animation */
+            transform: scale(1);
+            &:hover{
+                transition: transform .6s; /* Animation */
+                transform: scale(1.05);
+            }
+        }
+
+       
+        transition: transform .6s; /* Animation */
+        transform: scale(1);
+        &:hover{
+            transition: transform .6s; /* Animation */
+            transform: scale(1.01);
+        }
+        .note{
+            text-align: center;
+        }
+    }
+}
+
+.input{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.login{
+    margin:10px;
+}
+.btn{
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

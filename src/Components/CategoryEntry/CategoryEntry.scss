@@ -1,0 +1,36 @@
+.CategoryEntry{
+    background-color: white;
+    padding : 20px;
+    text-align: center;
+
+    .box{
+        
+        background-color: rgb(230, 230, 230);
+        margin:0 auto;
+        padding: 50px;
+        height:800px;
+        max-width: 900px;
+        
+        .child{
+            vertical-align: middle;
+            width: 70%;
+            height: 700px;
+            margin:0 auto;
+            padding: 20px ;
+            // padding-left: 40px;
+            // padding-right: 40px;
+            background-color: white;
+            transition: transform .6s; /* Animation */
+            transform: scale(1);
+            &:hover{
+                transition: transform .6s; /* Animation */
+                transform: scale(1.05);
+            }
+
+            .input{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

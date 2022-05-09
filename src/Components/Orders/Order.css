@@ -1,0 +1,44 @@
+.order {
+  background-color: white;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+.order .transactionInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order .transactionInfo .child {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.order .transactionInfo .child:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.order .orderItem {
+  margin: 20px;
+}
+
+.order .download {
+  text-align: center;
+}
+/*# sourceMappingURL=Order.css.map */

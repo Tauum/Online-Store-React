@@ -1,0 +1,106 @@
+.ItemEntry{
+    background-color: white;
+    padding : 20px;
+    text-align: center;
+
+    .box{
+        
+        background-color: rgb(230, 230, 230);
+        margin:0 auto;
+        padding: 40px;
+        height:800px;
+        max-width: 900px;
+        
+        .child{
+            vertical-align: middle;
+            width: 70%;
+            height: 700px;
+            margin:0 auto;
+            padding: 20px ;
+            // padding-left: 40px;
+            // padding-right: 40px;
+            background-color: white;
+            transition: transform .6s; /* Animation */
+            transform: scale(1);
+            &:hover{
+                transition: transform .6s; /* Animation */
+                transform: scale(1.04);
+            }
+
+            .input{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .dualInput{
+                width: 100%;
+                display: flex;
+                margin: 0 auto;
+                .left{
+                    width: 100%;
+                }
+                .right{
+                    width: 100%;
+                }
+                .dualInputChild{
+                    width: 60%;
+                    padding: 10px;
+                    
+                }
+            }
+
+            .tripleInput{
+                width: 100%;
+                display: flex;
+                margin: 0 auto;
+                .left{
+                    width: 100%;
+                }
+                .right{
+                    width: 100%;
+                }
+                .tripleInputChild{
+                    width: 50%;
+                    padding: 10px;
+                    
+                }
+            }
+
+
+        }
+    }
+
+
+
+}
+
+.category-modal{
+    text-align: center;
+    .card-body{
+        .mainContent{
+            
+            .categories{
+                margin: 60px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 25px;
+                background-color: rgb(230, 230, 230);
+                
+                .category{
+
+                    margin: 60px;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    background-color:white;
+                    transition: transform .6s; /* Animation */
+                    transform: scale(1);
+                    &:hover{
+                        transition: transform .6s; /* Animation */
+                        transform: scale(1.04);
+                    }
+                }
+
+            }
+        }
+    }
+}

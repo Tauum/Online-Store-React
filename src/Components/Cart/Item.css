@@ -1,0 +1,89 @@
+.cartitem {
+  background-color: white;
+  padding: 0;
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.cartitem .image {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.cartitem .image:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+
+.cartitem .information {
+  padding-left: 20px;
+  width: 600px;
+}
+
+.cartitem .information .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cartitem .information .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cartitem .information .middle .price {
+  font-size: 20px;
+}
+
+.cartitem .information .middle .remove {
+  margin-right: 15px;
+  right: 0;
+}
+
+.cartitem .information .score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cartitem:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+/*# sourceMappingURL=Item.css.map */

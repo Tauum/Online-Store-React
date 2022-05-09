@@ -1,0 +1,23 @@
+.admin {
+  border: 1px pink;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.admin .left {
+  border: red 1px;
+}
+
+.admin .left .element {
+  background-color: black;
+  border: green 1px;
+}
+
+.admin .right {
+  margin: 25px;
+  background-color: violet;
+}
+/*# sourceMappingURL=Admin.css.map */

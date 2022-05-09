@@ -1,0 +1,86 @@
+.stuff {
+  background: #ffc2cc;
+  background: radial-gradient(circle, #ffc2cc 0%, #c2d6ff 100%);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.stuff .all {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7.5%;
+  border-radius: 15px;
+  padding: 30px;
+  background: white;
+  background: radial-gradient(circle, white 0%, #e7e7e7 100%);
+  width: 40%;
+  min-width: 290px;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.stuff .all .treehouse {
+  margin: 15px;
+  background: #ffc2cc;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffc2cc), to(#c2d6ff));
+  background: linear-gradient(0deg, #ffc2cc 0%, #c2d6ff 100%);
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.stuff .all .treehouse:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.stuff .all:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.stuff .all .note {
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.login {
+  margin: 10px;
+}
+
+.btn {
+  margin: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*# sourceMappingURL=SignInRegister.css.map */

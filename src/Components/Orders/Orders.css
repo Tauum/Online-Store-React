@@ -1,0 +1,17 @@
+.orders {
+  max-width: 1000px;
+  padding: 20px 50px;
+  margin: auto;
+  background-color: white;
+}
+
+.orders .orderList {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.orders .orderList .order {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=Orders.css.map */

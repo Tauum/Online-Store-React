@@ -1,0 +1,45 @@
+.orderitem{
+    background-color: white;
+    max-width: 800px;
+    padding: 0;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    display: flex;
+
+    .image{
+        width: 190px;
+        height: 190px;
+        margin: 0;
+        object-fit: contain;
+    }
+    .information{
+        padding-left: 20px;
+        width: 600px;
+        .name{
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .middle{
+            display: flex;
+            justify-content: space-between;
+            .price{
+                font-size: 20px;
+            }
+            .remove{
+                margin-right: 15px;
+                right: 0;
+            }
+        }
+        .score{display: flex;}
+    }
+    transition: transform .6s; /* Animation */
+    transform: scale(1);
+    &:hover{
+        transition: transform .6s; /* Animation */
+        transform: scale(1.01);
+    }
+}

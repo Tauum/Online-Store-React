@@ -1,0 +1,169 @@
+.generateOrder {
+  padding: 25px;
+}
+
+.generateOrder .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.generateOrder .main .left {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding: 25px;
+  min-width: 400px;
+}
+
+.generateOrder .main .left .address {
+  padding: 15px;
+  background-color: #e6e6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generateOrder .main .right {
+  display: inline;
+  min-width: 400px;
+  padding: 25px;
+  margin: auto;
+}
+
+.generateOrder .main .right .payment {
+  margin: 10px;
+  background-color: #e6e6e6;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generateOrder .main .right .other {
+  padding: 20px 10px 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.generateOrder .main .right .other .discountCost {
+  background-color: #e6e6e6;
+  margin: 10px;
+  padding: 15px 10px 15px 10px;
+  width: 33%;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.generateOrder .main .right .other .discountCost:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.generateOrder .main .right .other .itemCost {
+  background-color: #e6e6e6;
+  margin: 10px;
+  padding: 15px 10px 15px 10px;
+  width: 33%;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.generateOrder .main .right .other .itemCost:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.generateOrder .main .right .other .shippingCost {
+  background-color: #e6e6e6;
+  margin: 10px;
+  padding: 15px 10px 15px 10px;
+  width: 33%;
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.generateOrder .main .right .other .shippingCost:hover {
+  -webkit-transition: -webkit-transform .6s;
+  transition: -webkit-transform .6s;
+  transition: transform .6s;
+  transition: transform .6s, -webkit-transform .6s;
+  /* Animation */
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.generateOrder .main .right .btnCheckout {
+  margin-bottom: 25px;
+}
+
+.generateOrder .items {
+  background-color: #e6e6e6;
+  padding: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.generateOrder .items a {
+  text-decoration: none;
+}
+
+.generateOrder .names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generateOrder .names .name {
+  margin-bottom: 0;
+}
+
+.modal-dialog {
+  min-width: 900px;
+}
+/*# sourceMappingURL=GenerateOrder.css.map */
